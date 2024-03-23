@@ -1,0 +1,54 @@
+input {
+  width: 90%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.main {
+  width: 400px;
+  height: 450px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+button {
+  width: 200px;
+  height: 40px;
+  background-color: lightgray;
+  color: blue;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  width: 205px;
+  height: 45px;
+  color: white;
+  background-color: grey;
+}
+.blockBtn {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  position: relative;
+  top: 80px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+#temp {
+  font-size: 50px;
+  color: brown;
+}
